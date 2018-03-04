@@ -1,7 +1,7 @@
 if (typeof DUOSHUO !== 'undefined') {
 	hook_duoshuo_templates();
 } else {
-	$('#duoshuo-script')[0].onload = hook_duoshuo_templates;
+	$('[src="http://static.duoshuo.com/embed.js"]')[0].onload = hook_duoshuo_templates;
 }
 var is_hook_duoshuo = false;
 
@@ -15,16 +15,8 @@ function hook_duoshuo_templates() {
 	DUOSHUO.templates.post = function(e, t) {
 		var rs = _D_post(e, t);
 		var is_admin;
-		if (typeof duoshuo_user_ID !== 'undefined') {
-			if (e.post.author.user_id && (e.post.author.user_id == duoshuo_user_ID)) {
-				if(duoshuo_admin_nickname){
-				is_admin = '<span class="this_ua admin">'+duoshuo_admin_nickname+'</span>'
-				}else{
-					is_admin = '<span class="this_ua admin">博主</span>'
-				}
-			} else {
-				is_admin = '';
-			}
+		if (e.post.author.user_id && (e.post.author.user_id == duoshuo_user_ID)) {
+			is_admin = '<span class="this_ua admin">博主</span>'
 		} else {
 			is_admin = '';
 		}
@@ -42,5 +34,5 @@ function show_ua(string) {
 	if (sua.os.version == 'x86_64') {
 		sua.os.version = 'x64';
 	}
-	return '<span class="this_ua platform ' + sua.os.name + '">' + sua.os.name + ' ' + sua.os.version + '</span><span class="this_ua browser ' + sua.browser.name + '">' + sua.browser.name + ' | ' + sua.browser.version + '</span>';
+	return '<span class="this_ua platform ' + sua.os.name + '">' + sua.os.name + ' ' + sua.os.version + '</span><span class="this_ua browser ' + sua.browser.name + '">' + sua.browser.name + '|' + sua.browser.version + '</span>';
 }

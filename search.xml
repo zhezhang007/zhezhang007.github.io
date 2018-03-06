@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Building a free github website step by step using HEXO]]></title>
+    <url>%2F2018%2F03%2F05%2FBuild-a-free-github-website-step-by-step-using-HEXO%2F</url>
+    <content type="text"><![CDATA[Install hexo following the instructions in https://hexo.io/docs/ hexo init hexo(Notice: cd the folder where you want to initiallize your hexo project first and then run the command above.) npm install hexo-deployer-git –save(This will create a public folder under your hexo project root) Go to your github and create a new repo the same name as your github name.(Notice: if you create a differnt name, it still works some kind of way, but will cause problems. For Example, my account name is ZheZhang007, after I created the repo, go to settings, you will see your website address is generated.For instance, mine is https://github.com/zhezhang007/zhezhang007.github.io) Copy the new repo’s address which is https://github.com/zhezhang007/zhezhang007.github.io.git(Notice: it has a postfix of git slightly different than your website link) Edit _config.yml file as shown in the screenshot (Notile, there are two kinds of _config.yml files, one is for the site, the other one is for the theme, go to the site one) hexo generate(This will complie all your hexo project files) hexo deploy(This will deploy all the compiled files to your github website according to your _config.yml setting)]]></content>
+      <categories>
+        <category>Settings</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>github</tag>
+        <tag>website</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[CI in my eyes]]></title>
+    <url>%2F2018%2F03%2F04%2FCI-in-my-eyes%2F</url>
+    <content type="text"><![CDATA[CSU Channel Islands is a very beautiful campus. Photos shoot by me.]]></content>
+      <categories>
+        <category>Photography by me</category>
+      </categories>
+      <tags>
+        <tag>campus</tag>
+        <tag>beauty</tag>
+        <tag>love</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Daily Schedule]]></title>
+    <url>%2F2018%2F03%2F04%2FDaily-Schedule%2F</url>
+    <content type="text"><![CDATA[Running a blog webite in a hacker way. I spend the whole weedkend to learn how to use Hexo. It is really awsome!!! I’m right now a second year Master of Computer Science student in United States. I made this Spring 2018 schedule just to fully use my time.]]></content>
+      <categories>
+        <category>Photography by me</category>
+      </categories>
+      <tags>
+        <tag>schedule</tag>
+      </tags>
+  </entry>
+</search>

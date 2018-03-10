@@ -94,20 +94,20 @@
 
 
 
-<meta name="description" content="Install hexo following the instructions in https://hexo.io/docs/  hexo init hexo(Notice: cd the folder where you want to initiallize your hexo project first and then run the command above.)  npm inst">
+<meta name="description" content="Install hexo following the instructions in https://hexo.io/docs/   hexo init hexo (Notice: cd the folder where you want to initiallize your hexo project first and then run the command above.)   npm">
 <meta name="keywords" content="hexo,github,website">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Building a free github website step by step using HEXO">
 <meta property="og:url" content="https://zhezhang007.io/2018/03/05/Build-a-free-github-website-step-by-step-using-HEXO/index.html">
 <meta property="og:site_name" content="Zhe Zhang">
-<meta property="og:description" content="Install hexo following the instructions in https://hexo.io/docs/  hexo init hexo(Notice: cd the folder where you want to initiallize your hexo project first and then run the command above.)  npm inst">
+<meta property="og:description" content="Install hexo following the instructions in https://hexo.io/docs/   hexo init hexo (Notice: cd the folder where you want to initiallize your hexo project first and then run the command above.)   npm">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="https://zhezhang007.io/2018/03/05/Build-a-free-github-website-step-by-step-using-HEXO/url_setting.jpg">
 <meta property="og:image" content="https://zhezhang007.io/2018/03/05/Build-a-free-github-website-step-by-step-using-HEXO/git_deploy.jpg">
 <meta property="og:updated_time" content="2018-03-05T23:37:15.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Building a free github website step by step using HEXO">
-<meta name="twitter:description" content="Install hexo following the instructions in https://hexo.io/docs/  hexo init hexo(Notice: cd the folder where you want to initiallize your hexo project first and then run the command above.)  npm inst">
+<meta name="twitter:description" content="Install hexo following the instructions in https://hexo.io/docs/   hexo init hexo (Notice: cd the folder where you want to initiallize your hexo project first and then run the command above.)   npm">
 <meta name="twitter:image" content="https://zhezhang007.io/2018/03/05/Build-a-free-github-website-step-by-step-using-HEXO/url_setting.jpg">
 
 
@@ -446,25 +446,44 @@
 
       
         <ol>
-<li><p>Install hexo following the instructions in <a href="https://hexo.io/docs/" target="_blank" rel="noopener">https://hexo.io/docs/</a></p>
+<li>
+<p>Install hexo following the instructions in <a href="https://hexo.io/docs/" target="_blank" rel="noopener">https://hexo.io/docs/</a></p>
 </li>
-<li><p>hexo init hexo<br>(Notice: cd the folder where you want to initiallize your hexo project first and then run the command above.)</p>
+<li>
+<p>hexo init hexo<br>
+(Notice: cd the folder where you want to initiallize your hexo project first and then run the command above.)</p>
 </li>
-<li><p>npm install hexo-deployer-git –save<br>(This will create a public folder under your hexo project root)</p>
+<li>
+<p>npm install hexo-deployer-git --save<br>
+(This will create a public folder under your hexo project root)</p>
+</li>
+</ol>
 <a id="more"></a>
+<ol start="4">
+<li>
+<p>Go to your github and create a new repo the same name as your github name.<br>
+(Notice: if you create a differnt name, it still works some kind of way, but will cause problems. For Example, my account name is ZheZhang007, after I created the repo, go to settings, you will see your website address is generated.<br>
+For instance, mine is <a href="https://github.com/zhezhang007/zhezhang007.github.io" target="_blank" rel="noopener">https://github.com/zhezhang007/zhezhang007.github.io</a>)</p>
 </li>
-<li><p>Go to your github and create a new repo the same name as your github name.<br>(Notice: if you create a differnt name, it still works some kind of way, but will cause problems. For Example, my account name is ZheZhang007, after I created the repo, go to settings, you will see your website address is generated.<br>For instance, mine is <a href="https://github.com/zhezhang007/zhezhang007.github.io" target="_blank" rel="noopener">https://github.com/zhezhang007/zhezhang007.github.io</a>)</p>
+<li>
+<p>Copy the new repo’s address which is <a href="https://github.com/zhezhang007/zhezhang007.github.io.git" target="_blank" rel="noopener">https://github.com/zhezhang007/zhezhang007.github.io.git</a><br>
+(Notice: it has a postfix of git slightly different than your website link)</p>
 </li>
-<li><p>Copy the new repo’s address which is <a href="https://github.com/zhezhang007/zhezhang007.github.io.git" target="_blank" rel="noopener">https://github.com/zhezhang007/zhezhang007.github.io.git</a><br>(Notice: it has a postfix of git slightly different than your website link)</p>
+<li>
+<p>Edit _config.yml file as shown in the screenshot</p>
 </li>
-<li><p>Edit _config.yml file as shown in the screenshot</p>
+</ol>
 <img src="/2018/03/05/Build-a-free-github-website-step-by-step-using-HEXO/url_setting.jpg">
 <img src="/2018/03/05/Build-a-free-github-website-step-by-step-using-HEXO/git_deploy.jpg">
 <p>(Notile, there are two kinds of _config.yml files, one is for the site, the other one is for the theme, go to the site one)</p>
+<ol start="7">
+<li>
+<p>hexo generate<br>
+(This will complie all your hexo project files)</p>
 </li>
-<li><p>hexo generate<br>(This will complie all your hexo project files)</p>
-</li>
-<li><p>hexo deploy<br>(This will deploy all the compiled files to your github website according to your _config.yml setting)</p>
+<li>
+<p>hexo deploy<br>
+(This will deploy all the compiled files to your github website according to your _config.yml setting)</p>
 </li>
 </ol>
 
@@ -510,6 +529,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/03/10/Prim-VS-Kruskal-Algorithm/" rel="prev" title="Prim-VS-Kruskal-Algorithm">
+                Prim-VS-Kruskal-Algorithm <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -577,7 +600,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">4</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -588,7 +611,7 @@
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">categories</span>
               </a>
             </div>
@@ -599,7 +622,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">7</span>
+                <span class="site-state-item-count">10</span>
                 <span class="site-state-item-name">tags</span>
               </a>
             </div>

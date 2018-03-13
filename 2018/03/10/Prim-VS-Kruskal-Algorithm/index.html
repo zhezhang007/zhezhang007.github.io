@@ -94,22 +94,22 @@
 
 
 
-<meta name="description" content="最小生成树-Prim算法和Kruskal算法 Prim算法 1.概览 普里姆算法（Prim算法），图论中的一种算法，可在加权连通图里搜索最小生成树。意即由此算法搜索到的边子集所构成的树中，不但包括了连通图里的所有顶点（英语：Vertex (graph theory)），且其所有边的权值之和亦为最小。该算法于1930年由捷克数学家沃伊捷赫·亚尔尼克（英语：Vojtěch Jarník）发现；并在19">
+<meta name="description" content="最小生成树-Prim算法和Kruskal算法 (转载自华山大师兄)  Prim算法 1.概览 普里姆算法（Prim算法），图论中的一种算法，可在加权连通图里搜索最小生成树。意即由此算法搜索到的边子集所构成的树中，不但包括了连通图里的所有顶点（英语：Vertex (graph theory)），且其所有边的权值之和亦为最小。该算法于1930年由捷克数学家沃伊捷赫·亚尔尼克（英语：Vojtěch J">
 <meta name="keywords" content="Algorithm,Prime,Kruskal">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Prim-VS-Kruskal-Algorithm">
 <meta property="og:url" content="https://zhezhang007.io/2018/03/10/Prim-VS-Kruskal-Algorithm/index.html">
 <meta property="og:site_name" content="Zhe Zhang">
-<meta property="og:description" content="最小生成树-Prim算法和Kruskal算法 Prim算法 1.概览 普里姆算法（Prim算法），图论中的一种算法，可在加权连通图里搜索最小生成树。意即由此算法搜索到的边子集所构成的树中，不但包括了连通图里的所有顶点（英语：Vertex (graph theory)），且其所有边的权值之和亦为最小。该算法于1930年由捷克数学家沃伊捷赫·亚尔尼克（英语：Vojtěch Jarník）发现；并在19">
+<meta property="og:description" content="最小生成树-Prim算法和Kruskal算法 (转载自华山大师兄)  Prim算法 1.概览 普里姆算法（Prim算法），图论中的一种算法，可在加权连通图里搜索最小生成树。意即由此算法搜索到的边子集所构成的树中，不但包括了连通图里的所有顶点（英语：Vertex (graph theory)），且其所有边的权值之和亦为最小。该算法于1930年由捷克数学家沃伊捷赫·亚尔尼克（英语：Vojtěch J">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="https://zhezhang007.io/2018/03/10/Prim-VS-Kruskal-Algorithm/alg1.jpg">
 <meta property="og:image" content="https://zhezhang007.io/2018/03/10/Prim-VS-Kruskal-Algorithm/alg2.jpg">
 <meta property="og:image" content="https://zhezhang007.io/2018/03/10/Prim-VS-Kruskal-Algorithm/alg3.jpg">
 <meta property="og:image" content="https://zhezhang007.io/2018/03/10/Prim-VS-Kruskal-Algorithm/alg4.jpg">
-<meta property="og:updated_time" content="2018-03-10T20:09:20.000Z">
+<meta property="og:updated_time" content="2018-03-13T19:11:24.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Prim-VS-Kruskal-Algorithm">
-<meta name="twitter:description" content="最小生成树-Prim算法和Kruskal算法 Prim算法 1.概览 普里姆算法（Prim算法），图论中的一种算法，可在加权连通图里搜索最小生成树。意即由此算法搜索到的边子集所构成的树中，不但包括了连通图里的所有顶点（英语：Vertex (graph theory)），且其所有边的权值之和亦为最小。该算法于1930年由捷克数学家沃伊捷赫·亚尔尼克（英语：Vojtěch Jarník）发现；并在19">
+<meta name="twitter:description" content="最小生成树-Prim算法和Kruskal算法 (转载自华山大师兄)  Prim算法 1.概览 普里姆算法（Prim算法），图论中的一种算法，可在加权连通图里搜索最小生成树。意即由此算法搜索到的边子集所构成的树中，不但包括了连通图里的所有顶点（英语：Vertex (graph theory)），且其所有边的权值之和亦为最小。该算法于1930年由捷克数学家沃伊捷赫·亚尔尼克（英语：Vojtěch J">
 <meta name="twitter:image" content="https://zhezhang007.io/2018/03/10/Prim-VS-Kruskal-Algorithm/alg1.jpg">
 
 
@@ -367,8 +367,8 @@
               
                 <span class="post-meta-item-text">Post modified</span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2018-03-10T12:09:20-08:00">
-                2018-03-10
+              <time title="Post modified" itemprop="dateModified" datetime="2018-03-13T12:11:24-07:00">
+                2018-03-13
               </time>
             
           </span>
@@ -422,7 +422,7 @@
                   <span class="post-meta-item-text">Words count in article</span>
                 
                 <span title="Words count in article">
-                  1,661
+                  1,056
                 </span>
               
 
@@ -447,8 +447,9 @@
       
 
       
-        <p>最小生成树-Prim算法和Kruskal算法</p>
-<p>Prim算法</p>
+        <h2><span id="最小生成树-prim算法和kruskal算法"> 最小生成树-Prim算法和Kruskal算法</span></h2>
+<p>(转载自华山大师兄)</p>
+<h5><span id="prim算法"> Prim算法</span></h5>
 <p>1.概览</p>
 <p>普里姆算法（Prim算法），图论中的一种算法，可在加权连通图里搜索最小生成树。意即由此算法搜索到的边子集所构成的树中，不但包括了连通图里的所有顶点（英语：Vertex (graph theory)），且其所有边的权值之和亦为最小。该算法于1930年由捷克数学家沃伊捷赫·亚尔尼克（英语：Vojtěch Jarník）发现；并在1957年由美国计算机科学家罗伯特·普里姆（英语：Robert C. Prim）独立发现；1959年，艾兹格·迪科斯彻再次发现了该算法。因此，在某些场合，普里姆算法又被称为DJP算法、亚尔尼克算法或普里姆－亚尔尼克算法。</p>
 <a id="more"></a>
@@ -470,59 +471,7 @@
 <p>3).将&lt;u,v&gt;加入G0中可得一个环，且&lt;u,v&gt;不是该环的最长边(这是因为&lt;u,v&gt;∈Gmin)</p>
 <p>4).这与prim每次生成最短边矛盾</p>
 <p>5).故假设不成立，命题得证.</p>
-<p>4.算法代码实现(未检验)</p>
-<p>复制代码<br>
-#define MAX  100000<br>
-#define VNUM  10+1                                             //这里没有ID为0的点,so id号范围1~10</p>
-<p>int edge[VNUM][VNUM]={/<em>输入的邻接矩阵</em>/};<br>
-int lowcost[VNUM]={0};                                         //记录Vnew中每个点到V中邻接点的最短边<br>
-int addvnew[VNUM];                                             //标记某点是否加入Vnew<br>
-int adjecent[VNUM]={0};                                        //记录V中与Vnew最邻近的点</p>
-<p>void prim(int start)<br>
-{<br>
-int sumweight=0;<br>
-int i,j,k=0;</p>
-<p>for(i=1;i&lt;VNUM;i++)                                      //顶点是从1开始<br>
-{<br>
-lowcost[i]=edge[start][i];<br>
-addvnew[i]=-1;                                         //将所有点至于Vnew之外,V之内，这里只要对应的为-1，就表示在Vnew之外<br>
-}</p>
-<p>addvnew[start]=0;                                        //将起始点start加入Vnew<br>
-adjecent[start]=start;</p>
-<p>for(i=1;i&lt;VNUM-1;i++)<br>
-{<br>
-int min=MAX;<br>
-int v=-1;<br>
-for(j=1;j&lt;VNUM;j++)<br>
-{<br>
-if(addvnew[j]!=-1&amp;&amp;lowcost[j]&lt;min)                 //在Vnew之外寻找最短路径<br>
-{<br>
-min=lowcost[j];<br>
-v=j;<br>
-}<br>
-}<br>
-if(v!=-1)<br>
-{<br>
-printf(&quot;%d %d %d\n&quot;,adjecent[v],v,lowcost[v]);<br>
-addvnew[v]=0;                                      //将v加Vnew中</p>
-<p>sumweight+=lowcost[v];                             //计算路径长度之和<br>
-for(j=1;j&lt;VNUM;j++)<br>
-{<br>
-if(addvnew[j]==-1&amp;&amp;edge[v][j]&lt;lowcost[j])<br>
-{<br>
-lowcost[j]=edge[v][j];                     //此时v点加入Vnew 需要更新lowcost<br>
-adjecent[j]=v;<br>
-}<br>
-}<br>
-}<br>
-}<br>
-printf(“the minmum weight is %d”,sumweight);<br>
-}<br>
-复制代码</p>
-<p>5.时间复杂度</p>
-<p>这里记顶点数v，边数e</p>
-<p>邻接矩阵:O(v2)                 邻接表:O(elog2v)</p>
-<p>Kruskal算法</p>
+<h5><span id="kruskal算法"> Kruskal算法</span></h5>
 <p>1.概览<br>
 Kruskal算法是一种用来寻找最小生成树的算法，由Joseph Kruskal在1956年发表。用来解决同样问题的还有Prim算法和Boruvka算法等。三种算法都是贪婪算法的应用。和Boruvka算法不同的地方是，Kruskal算法在图中存在相同权值的边时也有效。</p>
 <p>2.算法简单描述</p>
@@ -543,66 +492,6 @@ Kruskal算法是一种用来寻找最小生成树的算法，由Joseph Kruskal�
 <p>我们证明T’+{&lt;u,v&gt;}是G的最小生成树。</p>
 <p>用反证法，如果T’+{&lt;u,v&gt;}不是最小生成树，最小生成树是T，即W(T)&lt;W(T’+{&lt;u,v&gt;})。显然T应该包含&lt;u,v&gt;，否则，可以用&lt;u,v&gt;加入到T中，形成一个环，删除环上原有的任意一条边，形成一棵更小权值的生成树。而T-{&lt;u,v&gt;}，是G’的生成树。所以W(T-{&lt;u,v&gt;})&lt;=W(T’)，也就是W(T)&lt;=W(T’)+W(&lt;u,v&gt;)=W(T’+{&lt;u,v&gt;})，产生了矛盾。于是假设不成立，T’+{&lt;u,v&gt;}是G的最小生成树，Kruskal算法对k+1阶图也适用。</p>
 <p>由数学归纳法，Kruskal算法得证。</p>
-<p>4.代码算法实现</p>
-<p>复制代码<br>
-typedef struct<br>
-{<br>
-char vertex[VertexNum];                                //顶点表<br>
-int edges[VertexNum][VertexNum];                       //邻接矩阵,可看做边表<br>
-int n,e;                                               //图中当前的顶点数和边数<br>
-}MGraph;</p>
-<p>typedef struct node<br>
-{<br>
-int u;                                                 //边的起始顶点<br>
-int v;                                                 //边的终止顶点<br>
-int w;                                                 //边的权值<br>
-}Edge;</p>
-<p>void kruskal(MGraph G)<br>
-{<br>
-int i,j,u1,v1,sn1,sn2,k;<br>
-int vset[VertexNum];                                    //辅助数组，判定两个顶点是否连通<br>
-int E[EdgeNum];                                         //存放所有的边<br>
-k=0;                                                    //E数组的下标从0开始<br>
-for (i=0;i&lt;G.n;i++)<br>
-{<br>
-for (j=0;j&lt;G.n;j++)<br>
-{<br>
-if (G.edges[i][j]!=0 &amp;&amp; G.edges[i][j]!=INF)<br>
-{<br>
-E[k].u=i;<br>
-E[k].v=j;<br>
-E[k].w=G.edges[i][j];<br>
-k++;<br>
-}<br>
-}<br>
-}<br>
-heapsort(E,k,sizeof(E[0]));                            //堆排序，按权值从小到大排列<br>
-for (i=0;i&lt;G.n;i++)                                    //初始化辅助数组<br>
-{<br>
-vset[i]=i;<br>
-}<br>
-k=1;                                                   //生成的边数，最后要刚好为总边数<br>
-j=0;                                                   //E中的下标<br>
-while (k&lt;G.n)<br>
-{<br>
-sn1=vset[E[j].u];<br>
-sn2=vset[E[j].v];                                  //得到两顶点属于的集合编号<br>
-if (sn1!=sn2)                                      //不在同一集合编号内的话，把边加入最小生成树<br>
-{<br>
-printf(&quot;%d —&gt; %d, %d&quot;,E[j].u,E[j].v,E[j].w);<br>
-k++;<br>
-for (i=0;i&lt;G.n;i++)<br>
-{<br>
-if (vset[i]==sn2)<br>
-{<br>
-vset[i]=sn1;<br>
-}<br>
-}<br>
-}<br>
-j++;<br>
-}<br>
-}<br>
-复制代码</p>
 
       
     </div>
@@ -697,8 +586,17 @@ j++;<br>
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/uploads/avatar.jpg"
@@ -784,6 +682,22 @@ j++;<br>
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text"> 最小生成树-Prim算法和Kruskal算法</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#undefined"><span class="nav-number">1.0.0.1.</span> <span class="nav-text"> Prim算法</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#undefined"><span class="nav-number">1.0.0.2.</span> <span class="nav-text"> Kruskal算法</span></a></li></ol></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       

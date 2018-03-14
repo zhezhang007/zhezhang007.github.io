@@ -93,23 +93,21 @@
 
 
 
-<meta name="description" content="最小生成树-Prim算法和Kruskal算法(转载自华山大师兄)  Prim算法 1.概览 普里姆算法（Prim算法），图论中的一种算法，可在加权连通图里搜索最小生成树。意即由此算法搜索到的边子集所构成的树中，不但包括了连通图里的所有顶点（英语：Vertex (graph theory)），且其所有边的权值之和亦为最小。该算法于1930年由捷克数学家沃伊捷赫·亚尔尼克（英语：Vojtěch Ja">
 <meta name="keywords" content="Algorithm,Prime,Kruskal">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Prim-VS-Kruskal-Algorithm">
 <meta property="og:url" content="https://zhezhang007.io/2018/03/10/Prim-VS-Kruskal-Algorithm/index.html">
 <meta property="og:site_name" content="Zhe Zhang">
-<meta property="og:description" content="最小生成树-Prim算法和Kruskal算法(转载自华山大师兄)  Prim算法 1.概览 普里姆算法（Prim算法），图论中的一种算法，可在加权连通图里搜索最小生成树。意即由此算法搜索到的边子集所构成的树中，不但包括了连通图里的所有顶点（英语：Vertex (graph theory)），且其所有边的权值之和亦为最小。该算法于1930年由捷克数学家沃伊捷赫·亚尔尼克（英语：Vojtěch Ja">
 <meta property="og:locale" content="default">
+<meta property="og:image" content="https://zhezhang007.io/2018/03/10/Prim-VS-Kruskal-Algorithm/alg.jpeg">
 <meta property="og:image" content="https://zhezhang007.io/2018/03/10/Prim-VS-Kruskal-Algorithm/alg1.jpg">
 <meta property="og:image" content="https://zhezhang007.io/2018/03/10/Prim-VS-Kruskal-Algorithm/alg2.jpg">
 <meta property="og:image" content="https://zhezhang007.io/2018/03/10/Prim-VS-Kruskal-Algorithm/alg3.jpg">
 <meta property="og:image" content="https://zhezhang007.io/2018/03/10/Prim-VS-Kruskal-Algorithm/alg4.jpg">
-<meta property="og:updated_time" content="2018-03-13T23:47:47.000Z">
+<meta property="og:updated_time" content="2018-03-14T22:17:58.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Prim-VS-Kruskal-Algorithm">
-<meta name="twitter:description" content="最小生成树-Prim算法和Kruskal算法(转载自华山大师兄)  Prim算法 1.概览 普里姆算法（Prim算法），图论中的一种算法，可在加权连通图里搜索最小生成树。意即由此算法搜索到的边子集所构成的树中，不但包括了连通图里的所有顶点（英语：Vertex (graph theory)），且其所有边的权值之和亦为最小。该算法于1930年由捷克数学家沃伊捷赫·亚尔尼克（英语：Vojtěch Ja">
-<meta name="twitter:image" content="https://zhezhang007.io/2018/03/10/Prim-VS-Kruskal-Algorithm/alg1.jpg">
+<meta name="twitter:image" content="https://zhezhang007.io/2018/03/10/Prim-VS-Kruskal-Algorithm/alg.jpeg">
 
 
 
@@ -210,7 +208,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            Home
+            menu.HOME
           </a>
         </li>
       
@@ -220,27 +218,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
-            Categories
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
-            
-            About
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            Archives
+            menu.CATEGORIES
           </a>
         </li>
       
@@ -250,7 +228,27 @@
             
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
-            Tags
+            menu.TAGS
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            menu.ARCHIVES
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            menu.ABOUT
           </a>
         </li>
       
@@ -436,11 +434,13 @@
       
 
       
-        <h3 id="最小生成树-prim算法和kruskal算法转载自华山大师兄"><a class="markdownIt-Anchor" href="#最小生成树-prim算法和kruskal算法转载自华山大师兄"></a> 最小生成树-Prim算法和Kruskal算法(转载自华山大师兄)</h3>
+        <img src="/2018/03/10/Prim-VS-Kruskal-Algorithm/alg.jpeg">
+<a id="more"></a>
+<h3 id="最小生成树-prim算法和kruskal算法转载自华山大师兄"><a class="markdownIt-Anchor" href="#最小生成树-prim算法和kruskal算法转载自华山大师兄"></a> 最小生成树-Prim算法和Kruskal算法(转载自华山大师兄)</h3>
 <h3 id="prim算法"><a class="markdownIt-Anchor" href="#prim算法"></a> Prim算法</h3>
 <p>1.概览</p>
 <p>普里姆算法（Prim算法），图论中的一种算法，可在加权连通图里搜索最小生成树。意即由此算法搜索到的边子集所构成的树中，不但包括了连通图里的所有顶点（英语：Vertex (graph theory)），且其所有边的权值之和亦为最小。该算法于1930年由捷克数学家沃伊捷赫·亚尔尼克（英语：Vojtěch Jarník）发现；并在1957年由美国计算机科学家罗伯特·普里姆（英语：Robert C. Prim）独立发现；1959年，艾兹格·迪科斯彻再次发现了该算法。因此，在某些场合，普里姆算法又被称为DJP算法、亚尔尼克算法或普里姆－亚尔尼克算法。</p>
-<a id="more"></a>
+<!-- more -->
 <p>2.算法简单描述</p>
 <p>1).输入：一个加权连通图，其中顶点集合为V，边集合为E；<br>
 2).初始化：Vnew = {x}，其中x为集合V中的任一节点（起始点），Enew = {},为空；<br>
@@ -524,6 +524,10 @@ n=1，显然能够找到最小生成树。<br>
 
           <div class="post-nav-prev post-nav-item">
             
+              <a href="/2018/03/14/Those-photos-love-by-first-sight/" rel="prev" title="Those photos love by first sight">
+                Those photos love by first sight <i class="fa fa-chevron-right"></i>
+              </a>
+            
           </div>
         </div>
       
@@ -589,8 +593,8 @@ n=1，显然能够找到最小生成树。<br>
 
           
             <div class="site-state-item site-state-posts">
-              <a href="/archives/">
-                <span class="site-state-item-count">4</span>
+              <a href="/">
+                <span class="site-state-item-count">5</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -601,7 +605,7 @@ n=1，显然能够找到最小生成树。<br>
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">5</span>
                 <span class="site-state-item-name">categories</span>
               </a>
             </div>
@@ -612,7 +616,7 @@ n=1，显然能够找到最小生成树。<br>
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">10</span>
+                <span class="site-state-item-count">12</span>
                 <span class="site-state-item-name">tags</span>
               </a>
             </div>
@@ -643,6 +647,17 @@ n=1，显然能够找到最小生成树。<br>
                   
                     
                       Github
+                    
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.instagram.com/zzhang0712/" target="_blank" title="Instagram">
+                  
+                    <i class="fa fa-fw fa-instagram"></i>
+                  
+                    
+                      Instagram
                     
                 </a>
               </span>

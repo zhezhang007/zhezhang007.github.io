@@ -94,22 +94,22 @@
 
 
 
-<meta name="description" content="最小生成树-Prim算法和Kruskal算法 (转载自华山大师兄)  Prim算法 1.概览 普里姆算法（Prim算法），图论中的一种算法，可在加权连通图里搜索最小生成树。意即由此算法搜索到的边子集所构成的树中，不但包括了连通图里的所有顶点（英语：Vertex (graph theory)），且其所有边的权值之和亦为最小。该算法于1930年由捷克数学家沃伊捷赫·亚尔尼克（英语：Vojtěch Ja">
+<meta name="description" content="最小生成树-Prim算法和Kruskal算法(转载自华山大师兄)  Prim算法 1.概览 普里姆算法（Prim算法），图论中的一种算法，可在加权连通图里搜索最小生成树。意即由此算法搜索到的边子集所构成的树中，不但包括了连通图里的所有顶点（英语：Vertex (graph theory)），且其所有边的权值之和亦为最小。该算法于1930年由捷克数学家沃伊捷赫·亚尔尼克（英语：Vojtěch Ja">
 <meta name="keywords" content="Algorithm,Prime,Kruskal">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Prim-VS-Kruskal-Algorithm">
 <meta property="og:url" content="https://zhezhang007.io/2018/03/10/Prim-VS-Kruskal-Algorithm/index.html">
 <meta property="og:site_name" content="Zhe Zhang">
-<meta property="og:description" content="最小生成树-Prim算法和Kruskal算法 (转载自华山大师兄)  Prim算法 1.概览 普里姆算法（Prim算法），图论中的一种算法，可在加权连通图里搜索最小生成树。意即由此算法搜索到的边子集所构成的树中，不但包括了连通图里的所有顶点（英语：Vertex (graph theory)），且其所有边的权值之和亦为最小。该算法于1930年由捷克数学家沃伊捷赫·亚尔尼克（英语：Vojtěch Ja">
+<meta property="og:description" content="最小生成树-Prim算法和Kruskal算法(转载自华山大师兄)  Prim算法 1.概览 普里姆算法（Prim算法），图论中的一种算法，可在加权连通图里搜索最小生成树。意即由此算法搜索到的边子集所构成的树中，不但包括了连通图里的所有顶点（英语：Vertex (graph theory)），且其所有边的权值之和亦为最小。该算法于1930年由捷克数学家沃伊捷赫·亚尔尼克（英语：Vojtěch Ja">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="https://zhezhang007.io/2018/03/10/Prim-VS-Kruskal-Algorithm/alg1.jpg">
 <meta property="og:image" content="https://zhezhang007.io/2018/03/10/Prim-VS-Kruskal-Algorithm/alg2.jpg">
 <meta property="og:image" content="https://zhezhang007.io/2018/03/10/Prim-VS-Kruskal-Algorithm/alg3.jpg">
 <meta property="og:image" content="https://zhezhang007.io/2018/03/10/Prim-VS-Kruskal-Algorithm/alg4.jpg">
-<meta property="og:updated_time" content="2018-03-13T19:19:01.000Z">
+<meta property="og:updated_time" content="2018-03-13T23:47:47.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Prim-VS-Kruskal-Algorithm">
-<meta name="twitter:description" content="最小生成树-Prim算法和Kruskal算法 (转载自华山大师兄)  Prim算法 1.概览 普里姆算法（Prim算法），图论中的一种算法，可在加权连通图里搜索最小生成树。意即由此算法搜索到的边子集所构成的树中，不但包括了连通图里的所有顶点（英语：Vertex (graph theory)），且其所有边的权值之和亦为最小。该算法于1930年由捷克数学家沃伊捷赫·亚尔尼克（英语：Vojtěch Ja">
+<meta name="twitter:description" content="最小生成树-Prim算法和Kruskal算法(转载自华山大师兄)  Prim算法 1.概览 普里姆算法（Prim算法），图论中的一种算法，可在加权连通图里搜索最小生成树。意即由此算法搜索到的边子集所构成的树中，不但包括了连通图里的所有顶点（英语：Vertex (graph theory)），且其所有边的权值之和亦为最小。该算法于1930年由捷克数学家沃伊捷赫·亚尔尼克（英语：Vojtěch Ja">
 <meta name="twitter:image" content="https://zhezhang007.io/2018/03/10/Prim-VS-Kruskal-Algorithm/alg1.jpg">
 
 
@@ -119,7 +119,7 @@
   var CONFIG = {
     root: '/',
     scheme: 'Mist',
-    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"right","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: true,
@@ -170,7 +170,7 @@
     
   
 
-  <div class="container sidebar-position-left page-post-detail ">
+  <div class="container sidebar-position-right page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -367,7 +367,7 @@
               
                 <span class="post-meta-item-text">Post modified</span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2018-03-13T12:19:01-07:00">
+              <time title="Post modified" itemprop="dateModified" datetime="2018-03-13T16:47:47-07:00">
                 2018-03-13
               </time>
             
@@ -415,6 +415,8 @@
             <div class="post-wordcount">
               
                 
+                  <span class="post-meta-divider">|</span>
+                
                 <span class="post-meta-item-icon">
                   <i class="fa fa-file-word-o"></i>
                 </span>
@@ -447,9 +449,8 @@
       
 
       
-        <p>最小生成树-Prim算法和Kruskal算法<br>
-(转载自华山大师兄)</p>
-<h5><span id="prim算法"> Prim算法</span></h5>
+        <h3 id="最小生成树-prim算法和kruskal算法转载自华山大师兄"><a class="markdownIt-Anchor" href="#最小生成树-prim算法和kruskal算法转载自华山大师兄"></a> 最小生成树-Prim算法和Kruskal算法(转载自华山大师兄)</h3>
+<h3 id="prim算法"><a class="markdownIt-Anchor" href="#prim算法"></a> Prim算法</h3>
 <p>1.概览</p>
 <p>普里姆算法（Prim算法），图论中的一种算法，可在加权连通图里搜索最小生成树。意即由此算法搜索到的边子集所构成的树中，不但包括了连通图里的所有顶点（英语：Vertex (graph theory)），且其所有边的权值之和亦为最小。该算法于1930年由捷克数学家沃伊捷赫·亚尔尼克（英语：Vojtěch Jarník）发现；并在1957年由美国计算机科学家罗伯特·普里姆（英语：Robert C. Prim）独立发现；1959年，艾兹格·迪科斯彻再次发现了该算法。因此，在某些场合，普里姆算法又被称为DJP算法、亚尔尼克算法或普里姆－亚尔尼克算法。</p>
 <a id="more"></a>
@@ -471,7 +472,7 @@ b.将v加入集合Vnew中，将&lt;u, v&gt;边加入集合Enew中；<br>
 3).将&lt;u,v&gt;加入G0中可得一个环，且&lt;u,v&gt;不是该环的最长边(这是因为&lt;u,v&gt;∈Gmin)<br>
 4).这与prim每次生成最短边矛盾<br>
 5).故假设不成立，命题得证.</p>
-<h5><span id="kruskal算法"> Kruskal算法</span></h5>
+<h3 id="kruskal算法"><a class="markdownIt-Anchor" href="#kruskal算法"></a> Kruskal算法</h3>
 <p>1.概览</p>
 <p>Kruskal算法是一种用来寻找最小生成树的算法，由Joseph Kruskal在1956年发表。用来解决同样问题的还有Prim算法和Boruvka算法等。三种算法都是贪婪算法的应用。和Boruvka算法不同的地方是，Kruskal算法在图中存在相同权值的边时也有效。</p>
 <p>2.算法简单描述</p>
@@ -536,6 +537,10 @@ n=1，显然能够找到最小生成树。<br>
 
           <div class="post-nav-prev post-nav-item">
             
+              <a href="/2018/03/13/Santa-Monica/" rel="prev" title="Santa Monica">
+                Santa Monica <i class="fa fa-chevron-right"></i>
+              </a>
+            
           </div>
         </div>
       
@@ -583,20 +588,11 @@ n=1，显然能够找到最小生成树。<br>
     
     <div class="sidebar-inner">
 
-      
+
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            Table of Contents
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            Overview
-          </li>
-        </ul>
-      
 
-      <section class="site-overview sidebar-panel">
+      <section class="site-overview sidebar-panel sidebar-panel-active">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/uploads/avatar.jpg"
@@ -611,7 +607,7 @@ n=1，显然能够找到最小生成树。<br>
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">5</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -683,22 +679,6 @@ n=1，显然能够找到最小生成树。<br>
       </section>
 
       
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text"> Prim算法</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#undefined"><span class="nav-number">2.</span> <span class="nav-text"> Kruskal算法</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
-      
 
       
 
@@ -753,6 +733,8 @@ n=1，显然能够找到最小生成树。<br>
     
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
         
       </div>
     

@@ -1434,7 +1434,7 @@ pre .javascript .function {
 .posts-expand .post-title-link {
   display: inline-block;
   position: relative;
-  color: #555;
+  color: #5b6abe;
   border-bottom: none;
   line-height: 1.2;
   vertical-align: top;
@@ -1532,6 +1532,9 @@ pre .javascript .function {
   line-height: 2;
   margin: 0 4px 8px 4px;
 }
+.post-button .btn:hover {
+  color: #00f;
+}
 .post-button .fa-fw {
   width: 1.285714285714286em;
   text-align: left;
@@ -1598,8 +1601,8 @@ pre .javascript .function {
 .posts-expand .post-eof {
   display: block;
   margin: 80px auto 60px;
-  width: 0%;
-  height: 0px;
+  width: 100%;
+  height: 1px;
   background: #ccc;
   text-align: center;
 }
@@ -1737,10 +1740,6 @@ pre .javascript .function {
   -ms-transform: rotate(360deg);
   -transform: rotate(360deg);
 }
-作者：迟道,
-链接：https:,
-來源：简书,
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。,
 .site-author-name {
   margin: 5px 0 0;
   text-align: center;
@@ -1824,7 +1823,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #57ff0d;
+  background: #a1446c;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2733,7 +2732,7 @@ hr {
   }
 }
 .menu .menu-item a:hover {
-  background: #e1e1e1;
+  background: #65b6b0;
 }
 .menu a::before {
   display: none;
@@ -2914,4 +2913,12 @@ body {
   padding: 60px 60px 60px 60px;
   background: #fff;
   min-height: 500px;
+}
+.post {
+  margin-top: 0px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0px 11px 38px -9px rgba(0,0,0,0.41);
+  -moz-box-shadow: 0px 11px 38px -9px rgba(0,0,0,0.41);
+  box-shadow: 0px 11px 38px -9px rgba(0,0,0,0.41);
 }

@@ -13,7 +13,7 @@
   <entry>
     <title><![CDATA[Bill Reader Application]]></title>
     <url>%2F2018%2F05%2F08%2FBill-Reader-Application%2F</url>
-    <content type="text"><![CDATA[Bill Reader is built using matlab as backend and python tkinter as frontend. It is able to rocogonize US dollar bills and log the reading history. The back end is not using openCV, instead it is using some morphology stratogies such as circularity and pixel size threshold and so on. This project is done be Jerry and Pioter on May 7, 2018. ... ... ...]]></content>
+    <content type="text"><![CDATA[Bill Reader is built using matlab as backend and python tkinter as frontend. It is able to rocogonize US dollar bills and log the reading history. The back end is not using openCV, instead it is using some morphology stratogies such as circularity and pixel size threshold and so on. This project is done be Jerry and Pioter on May 7, 2018. new Valine({ el: ‘#comment’ , notify:false, verify:false, appId: ‘OkmzCFTmXOMk3PeGeW07QPgp-gzGzoHsz’, appKey: ‘wkLpvMRVwH4ERxD3G5LKloBh’, placeholder: ‘just go go’, path:window.location.pathname, avatar:‘mm’ }); ... ... ...]]></content>
       <categories>
         <category>Projects</category>
       </categories>

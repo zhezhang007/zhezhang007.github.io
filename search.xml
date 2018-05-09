@@ -13,7 +13,7 @@
   <entry>
     <title><![CDATA[Bill Reader Application]]></title>
     <url>%2F2018%2F05%2F08%2FBill-Reader-Application%2F</url>
-    <content type="text"><![CDATA[Bill Reader is built using matlab as backend and python tkinter as frontend. It is able to rocogonize US dollar bills and log the reading history. The back end is not using openCV, instead it is using some morphology stratogies such as circularity and pixel size threshold and so on. This project is done be Jerry and Pioter on May 7, 2018.]]></content>
+    <content type="text"><![CDATA[Bill Reader is built using matlab as backend and python tkinter as frontend. It is able to rocogonize US dollar bills and log the reading history. The back end is not using openCV, instead it is using some morphology stratogies such as circularity and pixel size threshold and so on. This project is done be Jerry and Pioter on May 7, 2018. Valine - A simple comment system based on Leancloud. new Valine({ // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁) av: AV, el: '.comment', // app_id: OkmzCFTmXOMk3PeGeW07QPgp-gzGzoHsz app_key: wkLpvMRVwH4ERxD3G5LKloBh placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!' // [v1.0.7 new]留言框占位提示文字 });]]></content>
       <categories>
         <category>Projects</category>
       </categories>
